@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("../css/color.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+  margin: 30px 30px;
+  border: 2px solid lightgray;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  width: 85vw;
+  height: 87vh;
+  font-size: 30px;
+}
+
+.left {
+  margin: 10px 10px auto;
+  border: 1px solid lightgray;
+  width: 33rem;
+  border-top: transparent;
+  border-left: transparent;
+}
+
+a {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.facebook {
+  padding: 1rem;
+  border: 1px solid white;
+  width: 20rem;
+  height: 5rem;
+  background-color:#4267B2;
+}
+
+.google {
+  padding: 1rem;
+  border: 1px solid white;
+  width: 20rem;
+  height: 5rem;
+  background-color: #DB4437;
+}
+
+.twitter {
+  padding: 1rem;
+  border: 1px solid white;
+  width: 20rem;
+  height: 5rem;
+  background-color: #1DA1F2;
+}
+
+.facebook, 
+.google, 
+.twitter {
+  color: white;
+  display: block;
+  margin: 70px;
+}
+
+.right {
+  position: relative;
+  left: 38rem;
+  bottom: 33rem;
+  margin: 10px 10px auto;
+  padding-right: 2rem;
+  border: 1px solid lightgray;
+  width: 30rem;
+  height: 32.5rem;
+  position: relative;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent; 
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+div form {
+  border: none;
+}
+
+input::placeholder {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 10rem;
+}
+
+input {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+             
+}
+
+#email {
+  position: relative;
+  top: 4rem;
+  left: 5rem;
+  border-bottom: 2px solid gray;
+  height: 2rem;
+}
+
+#password {
+  position: relative;
+  top: 12rem;
+  right: 6rem;
+  width: 15rem;
+  height: 2rem;
+  border-bottom: 2px solid gray;
+}
+
+#send {
+  position: relative;
+  top: 16rem;
+  left: 20rem;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(65, 173, 223);
+  width: 9vw;
+  height: 6vh;
+  border-radius: 8%;
+  border-bottom: 2px solid rgb(65, 173, 223);
+}
+
+p {
+  position: relative;
+  top: 18rem;
+  left: 6rem;
+  color:rgb(90, 88, 88);
+  font-weight: 700;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.checkbox {
+  position: relative;
+  width: 3vw;
+  height: 3vh;
+  top: 19.5rem;
+  left: 3rem;
+}
+
+.footer {
+  font-size: 20px;
+  width: 83vw;
+  height: 8vh;
+  background-color: rgb(205, 229, 245);
+  opacity: 0.7;
+  position: relative;
+  bottom: 33rem;
+  left: 1rem;
+}
+
+h2 {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: rgb(10, 80, 231);
+  position: relative;
+  top: 1rem;
+  text-align: center;
+  z-index: -1;
+}
+
+.fa-regular {
+  color: grey;
+  position: relative;
+  left: 40rem;
+  bottom: 65rem;
+}
+
+.fas {
+  color: grey;
+  position: relative;
+  left: 38rem;
+  bottom: 57rem;
+}
+
+.or {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: gray;
+  border: 1px solid gray;
+  width: 5vw;
+  height: 7.5vh;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 31.5rem;
+  bottom: 52rem;
+} 
+
+h3 {
+  text-align: center;
+}
